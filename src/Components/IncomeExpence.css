@@ -1,0 +1,33 @@
+.incomeExpence {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.income{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 21px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 40px;
+    align-items: center;
+    color: green;
+}
+
+.expence{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 21px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 40px;
+    align-items: center;
+    color: #FF3D00;
+}

@@ -1,0 +1,25 @@
+.balence{
+    margin-top: 20px ;
+}
+
+.balence__total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    height: 23px;
+    border: 1px solid rgb(134, 133, 133);
+    border-radius: 40px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(48, 5, 150);
+}
+
+.text__t {
+    color: green;
+}
+
+.text__e {
+    color: #FF3D00;
+}

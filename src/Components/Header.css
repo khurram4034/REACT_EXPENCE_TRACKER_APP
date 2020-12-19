@@ -1,0 +1,10 @@
+.header__img {
+    width: 45px;
+    height: 45px;
+}
+
+.text-n {
+    float: right;
+    margin-right: 5px;
+    color: #FF3D00;
+}

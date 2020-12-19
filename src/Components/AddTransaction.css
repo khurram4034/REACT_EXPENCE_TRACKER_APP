@@ -1,0 +1,64 @@
+.addTransaction {
+  align-items: left;
+}
+
+label {
+  display: inline-block;
+  margin: 10px 0;
+  display: flex;
+  justify-content: left;
+  margin-left: 8px;
+}
+
+input[type='text'],
+input[type='number'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 85%;
+
+}
+
+.btn {
+  cursor: pointer;
+  border: 1px solid #09f53c !important;
+  background-color: transparent;
+  box-shadow: var(--box-shadow);
+  border: 0;
+  display: block;
+  font-size: 14px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 83.5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #09f53c;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 14px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 83.5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.btn:focus,
+.delete-btn:focus {
+  outline: 0;
+
+}

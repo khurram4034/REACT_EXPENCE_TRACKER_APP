@@ -1,23 +1,37 @@
-import logo from './logo.svg';
+import React from 'react';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 import './App.css';
+import { Balence } from './Components/Balence';
+import { IncomeExpence } from './Components/IncomeExpence';
+import { Headers } from './Components/Headers';
+import { AddTransaction } from './Components/AddTransaction';
+import { TransactionList } from './Components/TransactionList';
+import { GlobalProvider } from './Context/GlobalState';
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalProvider>
+        <Grid container spacing={2}>
+        <Grid item xs>
+          <Paper>
+            <Headers />
+            <Balence />
+            <IncomeExpence />
+            <AddTransaction />
+          </Paper>
+        </Grid>
+        <Grid item xs>
+          <Paper>
+            <TransactionList />
+          </Paper>
+        </Grid>
+      </Grid>
+    
+      </GlobalProvider>
     </div>
   );
 }
